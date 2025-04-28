@@ -1,0 +1,296 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Safespere smart parental controls </title>
+  <img src="c:\Users\thriveni b\AppData\Local\Packages\5319275A.WhatsAppDesktop_cv1g1gvanyjgm\TempState\8196E8D0F9EE7DFDFC7E11DBBFA30D77\WhatsApp Image 2025-04-28 at 23.48.54_b4e1031c.jpg" alt height="170" width="170">
+  <h1>SAFESPERE smart parental controls</h1>
+  <p>Empowering parents with smarter, safer control.<br> Monitor, guide, and protect your child's digital journey with ease.<br> 
+ Take charge of online safety — because a secure future starts today</p>
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://cdn.socket.io/4.5.4/socket.io.min.js"></script> <!-- For real-time -->
+</head>
+<body>
+<P>Intoducing SAFESPERE smart <br> parental controls</P>
+<p>Creating the safest online experience for your kids<br>is important, and Smart Parental Controls makes it<br> easy.
+   Built into select  SAFESPERE Smart Parental Controls <br>solutions offer a number of ways to manage your children’s
+    online activity<br> and promote good online habits for the<br>
+     family.</p>
+    <p>with SAFESPERE SMART PARENTAL CONTROLS,<br> you can:</p>
+    <div>
+    <img src="c:\Users\thriveni b\AppData\Local\Packages\5319275A.WhatsAppDesktop_cv1g1gvanyjgm\TempState\82EDC5C9E21035674D481640448049F3\WhatsApp Image 2025-04-29 at 00.57.24_51f0b148.jpg"alt width="200" height="200">
+<br> <br>
+    <p>Keeps kids safe online.<br>
+  Blocks bad websites.
+  </p>
+    <img src=" c:\Users\thriveni b\AppData\Local\Packages\5319275A.WhatsAppDesktop_cv1g1gvanyjgm\TempState\AAFD8346A677AF9DB717AFEADF6B62EC\WhatsApp Image 2025-04-29 at 00.57.24_6a35c921.jpg "alt width="200" height="200"><br>
+    <p>Limits screen time.<br>
+  Tracks online activity.</p>
+  <br>
+    <img src="c:\Users\thriveni b\AppData\Local\Packages\5319275A.WhatsAppDesktop_cv1g1gvanyjgm\TempState\E464F78F1B3FA6BFE6D887029BF66F0C\WhatsApp Image 2025-04-29 at 00.57.25_b1de07b8.jpg" alt width="200" height="200">
+<br>
+    <p> Helps kids focus on study.</p>
+    <br>
+<img src="c:\Users\thriveni b\AppData\Local\Packages\5319275A.WhatsAppDesktop_cv1g1gvanyjgm\TempState\5DCD0DDD3D918C70D380D32BCE4E733A\WhatsApp Image 2025-04-29 at 00.57.26_38894419.jpg" alt width="200" height="200">
+ <br> <p> Gives parents peace of mind.<br>Sets rules easily. </p></div>
+    <main>
+    <!--<section id="monitoring">
+      <h2>Real-Time Monitoring</h2>
+      <ul id="activity-feed"></ul>
+    </section>-->
+
+
+    <section id="dashboard">
+      <h2>Insights Dashboard</h2>
+      <div class="stats">
+        <p>Educational: <span id="edu-count">0</span></p>
+        <p>Social: <span id="social-count">0</span></p>
+        <p>Entertainment: <span id="entertainment-count">0</span></p>
+      </div>
+      <div id="wellness-score">Digital Wellness Score: 100%</div>
+    </section>
+
+    <section id="communication">
+      <h2>Open Communication Tips</h2>
+      <button onclick="showTips()">View Tips</button>
+    </section>
+
+    <section id="simulate">
+      <h2>Simulate Child Activity</h2>
+      <button onclick="simulateActivity()">Simulate Activity</button>
+    </section>
+
+    <section id="alerts">
+      <h2>Emergency Alerts</h2>
+      <div id="emergency-alerts"></div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
+
+<STYLE>
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #eef2f7;
+}
+
+header {
+  background-color: #003366;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+main {
+  padding: 20px;
+}
+
+section {
+  margin-bottom: 30px;
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+h2 {
+  color: #003366;
+}
+
+#activity-feed {
+  list-style: none;
+  padding: 0;
+}
+
+#activity-feed li {
+  margin-bottom: 10px;
+  padding: 10px;
+  background: #f4f6f8;
+  border-radius: 5px;
+}
+
+.stats p {
+  margin: 5px 0;
+}
+
+button {
+  background-color: #003366;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0055a5;
+}
+
+#wellness-score {
+  margin-top: 20px;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+#emergency-alerts {
+  color: red;
+  font-weight: bold;
+}
+p{
+ text-align:center;
+ font-size: medium;
+  
+}
+.features {
+  display: flex;
+  justify-content:center;
+  flex-wrap: wrap;
+}
+
+.feature {
+  display: flex; /* Use flexbox for alignment */
+  flex-direction: column; /* Stack items vertically */
+  align-items: center; /* Center items horizontally */
+  justify-content: center; /* Center items vertically */
+  text-align: center;
+  margin: 10px;
+  height: 250px; /* Set a height to allow vertical centering */
+}
+
+img {
+  border-radius: 8px;
+  max-width: 100%; /* Ensure images are responsive */
+  height: auto; /* Maintain aspect ratio */
+}
+
+.stats p {
+  margin: 5px 0;
+</style>
+ 
+<SCRIPT>
+const socket = io('http://localhost:5000');  
+
+let educationalCount = 0;
+let socialCount = 0;
+let entertainmentCount = 0;
+let wellnessScore = 100;
+
+const badWords = ["bad", "hate", "bully", "kill"];
+const emergencyKeywords = ["suicide", "violence", "threat"];
+
+// Handle incoming activities
+socket.on('activity-update', (data) => {
+ processActivity(data.type, data.content);
+});
+
+// Simulate sending child activities
+function simulateActivity() {
+  const activities = [
+    { type: "Educational", content: "Reading Science Article" },
+    { type: "Social", content: "Chatting on WhatsApp" },
+    { type: "Entertainment", content: "Watching YouTube videos" },
+    { type: "Social", content: "Posting mean comment: 'I hate you'" },
+    { type: "Entertainment", content: "Looking at violent meme" },
+  ];
+  const random = activities[Math.floor(Math.random() * activities.length)];
+  socket.emit('child-activity', random);
+}
+
+// Process activity and update UI
+function processActivity(type, content) {
+  const list = document.getElementById('activity-feed');
+  const li = document.createElement('li');
+  li.innerHTML = '<strong>${type}</strong>:${content}';
+  list.prepend(li);
+
+  // Check for bad content (Simple AI NLP simulation)
+  detectBadContent(content);
+
+  // Update dashboard counts
+  if (type === "Educational") educationalCount++;
+  else if (type === "Social") socialCount++;
+  else if (type === "Entertainment") entertainmentCount++;
+
+  document.getElementById('edu-count').innerText = educationalCount;
+  document.getElementById('social-count').innerText = socialCount;
+  document.getElementById('entertainment-count').innerText = entertainmentCount;
+
+  // Update wellness score
+  updateWellnessScore();
+
+  // Check for emergencies
+  detectEmergency(content);
+}
+
+// Very simple NLP (word detection)
+function detectBadContent(text) {
+  const lower = text.toLowerCase();
+  for (let word of badWords) {
+    if (lower.includes(word)) {
+      alert('Potential cyberbullying/inappropriate content detected: "${word}"');
+    }
+  }
+}
+
+// Emergency detector
+function detectEmergency(text) {
+  const lower = text.toLowerCase();
+  for (let word of emergencyKeywords) {
+    if (lower.includes(word)) {
+      const alertBox = document.getElementById('emergency-alerts');
+      const alertMsg = document.createElement('p');
+      alertMsg.innerText = 'Emergency detected:${word.toUpperCase()}';
+      alertBox.appendChild(alertMsg);
+    }
+  }
+}
+
+// Wellness score update
+function updateWellnessScore() {
+  wellnessScore -= 2; // every activity reduces it slightly
+  if (wellnessScore < 0) wellnessScore = 0;
+  document.getElementById('wellness-score').innerText = 'Digital Wellness Score: ${wellnessScore}%';
+
+  if (wellnessScore <= 50) {
+    alert("Reminder: Please take a break from the screen!");
+  }
+}
+function showTips() {
+    alert(`Tips for Parents:
+  1. Discuss internet safety openly.
+  2. Set screen time limits.
+  3. Monitor but trust.
+  4. Teach them about cyberbullying.
+  5. Encourage positive online behavior.`);
+  }  
+  // Monitor input fields
+const inputFields = document.querySelectorAll('input[type="text"], textarea');
+
+inputFields.forEach(field => {
+    field.addEventListener('input', function(event) {
+        const text = event.target.value;
+        
+        if (text.length > 5) { // only send meaningful input
+            fetch('https://your-backend.com/api/scan-text', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({ text })
+            })
+            .then(response => response.json())
+            .then(data => {
+                if (data.threatDetected) {
+                    alert('Warning: Suspicious content detected!');
+                }
+            })
+            .catch(err => console.error('Error sending text:', err));
+        }
+    });
+});
+</SCRIPT>
